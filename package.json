@@ -1,0 +1,29 @@
+{
+  "name": "dead-links-search",
+  "version": "1.0.0",
+  "description": "A bash and Node tool to locate dead links",
+  "main": "get_links.js",
+  "dependencies": {
+    "puppeteer": "^2.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pauljickling/dead-links-search.git"
+  },
+  "keywords": [
+    "Node",
+    "Puppeteer",
+    "Bash",
+    "Curl"
+  ],
+  "author": "Paul Jickling",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pauljickling/dead-links-search/issues"
+  },
+  "homepage": "https://github.com/pauljickling/dead-links-search#readme"
+}
