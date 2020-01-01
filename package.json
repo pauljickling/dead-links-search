@@ -2,12 +2,13 @@
   "name": "dead-links-search",
   "version": "1.0.0",
   "description": "A bash and Node tool to locate dead links",
-  "main": "get_links.js",
+  "main": "status.sh",
   "dependencies": {
     "puppeteer": "^2.0.0"
   },
   "devDependencies": {},
   "scripts": {
+    "run": "bash status.sh",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
