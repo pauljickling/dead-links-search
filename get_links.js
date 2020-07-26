@@ -5,8 +5,9 @@ const util = require('util');
   const browser = await puppeteer.launch();
   const page = await browser.newPage();
   try {
-    const route = 'http://localhost:3000'; /* Change as needed */
-    await page.goto(route);
+    const port = 'http://localhost:3000'; /* Change as needed */
+    console.log(`Searching for dead links at port ${port}...`);
+    await page.goto(port);
     const links = await page.evaluate(() => {
       let anchorList = [];
       let selected = document.querySelectorAll('a');
