@@ -4,7 +4,7 @@
   "description": "A bash and Node tool to locate dead links",
   "main": "status.sh",
   "dependencies": {
-    "puppeteer": "^2.0.0",
+    "puppeteer": "^24.37.5",
     "ws": ">=6.2.2"
   },
   "devDependencies": {
